@@ -1,0 +1,131 @@
+.line{
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.dot{
+  stroke: #fff;
+}
+
+.text{
+  font-size: 4;
+}
+
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  font-family: 'Roboto', sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+.myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+
+#chart{
+    width: 1600px;
+    height: 800px;
+    background-color: #f7f7f7;
+    margin: 25px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.rect{
+  width: 50px;
+  height: 100px;
+  border: 2px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.bar{
+    display: inline-block;
+    width: 25px;
+    height: 300px;
+    background-color: #7ed26d;
+    margin-right: 5px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    background-color: #003DA5;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.SubTitle{
+    width: 50%;
+    text-align: left;
+    background-color: #505456;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.buttons{
+    padding: 10px;
+    width: 50%;
+}
+
+
+.button{
+    display: inline-block;
+    background-color: #2a9edd; /* light blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:active{background-color:black;}
+.button:hover{background-color:orange;}
+.button:target{background-color:yellow;}
